@@ -22,6 +22,7 @@ export default function SignUp() {
             </label>
             <input
               id="name"
+              name="name"
               className="form-input w-full py-2"
               type="text"
               placeholder="Corey Barker"
@@ -36,6 +37,7 @@ export default function SignUp() {
               Email
             </label>
             <input
+              name="email"
               id="email"
               className="form-input w-full py-2"
               type="email"
