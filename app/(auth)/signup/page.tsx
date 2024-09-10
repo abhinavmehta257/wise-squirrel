@@ -42,6 +42,7 @@ export default function SignUp() {
               placeholder="corybarker@email.com"
               required
             />
+            <input type="hidden" name="form-name" value="signup" />
           </div>
           {/* <div>
             <label
