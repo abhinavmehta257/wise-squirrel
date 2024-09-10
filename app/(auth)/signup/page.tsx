@@ -7,11 +7,11 @@ export default function SignUp() {
   return (
     <>
       <div className="mb-10">
-        <h1 className="text-4xl font-bold">Create your account</h1>
+        <h1 className="text-4xl font-bold">Register</h1>
       </div>
 
       {/* Form */}
-      <form method="post">
+      <form name="signup" method="post">
         <div className="space-y-4">
           <div>
             <label
@@ -58,7 +58,7 @@ export default function SignUp() {
               required
             />
           </div> */}
-          <div>
+          {/* <div>
             <label
               className="mb-1 block text-sm font-medium text-gray-700"
               htmlFor="password"
@@ -73,7 +73,7 @@ export default function SignUp() {
               placeholder="••••••••"
               required
             />
-          </div>
+          </div> */}
         </div>
         <div className="mt-6 space-y-3">
           <button className="btn w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
